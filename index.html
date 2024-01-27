@@ -3,287 +3,257 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Franklin-Portifolio</title>
+    <title>real-me</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="javascript/javascript.js"></script>
   </head>
   <body>
     <nav>
-      <div class="nav-container">
-        <div class="navbar">
-          <div class="logo">
-            <h1>FRANKLIN</h1>
-          </div>
-          <ul class="links">
-            <li><a href="@" class="link">HOME</a></li>
-            <li><a href="@" class="link">ABOUT ME</a></li>
-            <li><a href="@" class="link">CONTACT US</a></li>
-            <li><a href="@" class="link">SKILLS</a></li>
-            <li><a href="@" class="link">BLOGS</a></li>
-            <button>SIGN-IN</button>
-          </ul>
-          <div class="menu">
-            <i class="fa-solid fa-bars"></i>
-          </div>
+      <div class="nav-links">
+        <div class="logo">
+          <h1>FRANKLIN</h1>
         </div>
-      </div>
+        <ul class="links">
+          <li><a href="#home" class="link">Home</a></li>
+          <li><a href="#about" class="link">About-Me</a></li>
+          <li><a href="#works" class="link">My-Work</a></li>
+          <li><a href="#skills" class="link">My-Skills</a></li>
+          <li><a href="#contact" class="link">Contact-ME</a></li>
+          <li><a href="blogs.html" class="link">blogs</a></li>
+          <li><a href="login.html" class="link btn">LOGIN</a></li>
+        </ul>
+          
+          <div class="menu">
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="navOpen()"></i>
+          </div>
+      
     </nav>
-
-    <!-- -----------------homepage------------------ -->
-
-    <div class="home-contianer">
+    <!-- -------------homepage-------------- -->
+    <div class="home-container" id="home">
       <div class="home">
         <div class="home-text">
-          <h1>HI,AM FRANKLIN<span>DEVELOPER</span></h1>
-          <p>
-            i'm full stack developer i can make ui/ux design and front-end and
-            even i would make backend,for more visit my github account
+          <h1>HELLOO,</h1>
+          <h1 class="word">It's Me FRANKLIN <span class="name">Developer,...</span></h1>
+          <p class="paragraph">
+            i'm full-stack web developer,i can make beautiful project you can
+            find Me on github.
           </p>
-          <div class="btn">
-            <button class="btni">VISIT GITHUB</button>
-            <button class="btni">HIRE ME</button>
-          </div>
+          <center>
+            <button type="submit" class="hire" name="hire" onclick="hire()">
+              Hire Me
+            </button>
+          </center>
         </div>
         <div class="home-image">
           <img src="./image/ab.jpg" alt="" />
+          
         </div>
+        
       </div>
     </div>
-    <!-- -----------------About me------------------ -->
+<script src="index.js"></script>
+<hr>
+   
+    <!-- -------------about me-------------- -->
 
-    <div class="about-container">
-      <h1 class="head">ABOUT-ME</h1>
-      <div class="abouts">
-        <div class="about-image">
-          <img src="./image/fr.jpg" alt="" class="img" />
-          <h1 class="h2">HI,AM FRANKLIN<span>DEVELOPER</span></h1>
-          <p class="par">
-            i'm full stack developer i can make ui/ux design and front-end and
-            even i would make backend,for more visit my github account
-          </p>
+    <div class="about-container" id="about">
+      <div class="momes">
+        <h1 class="head">About-Me</h1>
+        <div class="about">
+          <div class="about-image">
+            <img src="./image/ab.jpg" alt="" />
+            
+          </div>
+          <div class="about-text">
+            <h1>HELLO,I'm FRANKLIN</h1>
+           
+            <p class="paragrap">
+              I'm full-stack software developer i am 19years old i learned software 
+              development i was continuening a trainning in Ict coding for on alight 
+              program i'm able to develop any program part of front-end and back-end even i would doing ui/ux design.
+              I'm full-stack software developer i am 19years old i learned software 
+              development i was continuening a trainning in Ict coding for on alight 
+              program i'm able to develop any program part of front-end and back-end even i would doing ui/ux design.
+              I'm full-stack software developer i am 19years old i learned software 
+              development i was continuening a trainning in Ict coding for on alight 
+              program i'm able to develop any program part of front-end and back-end even i would doing ui/ux design.
+            </p>
+            
+            <div class="status">
+              <h3>NAMES: NDANYUZWE FRANK</h3>
+              <h3>AGE: 20</h3>
+              <h3>ADDRESS: KIGALI,Kicukiro,Gatenga</h3>
+              <h3>PHONE-NUMBER: 0790019543</h3>
+              <h3>EMAIL: franklinprogrammer@gmail.com</h3>
+            </div>
+              <button type="submit" class="hir" name="hire" onclick="hire()">
+               Download CV
+              </button>
+        
+          </div>
+          
         </div>
-        <div class="about-text">
-          <p class="para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            deserunt aut nobis necessitatibus expedita, excepturi rerum suscipit
-            distinctio accusamus modi consectetur iusto autem quaerat quasi
-            assumenda consequuntur cumque ut vel. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Placeat deserunt aut nobis
-            necessitatibus expedita, excepturi rerum suscipit distinctio
-            accusamus modi consectetur iusto autem quaerat quasi assumenda
-            consequuntur cumque ut vel. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat deserunt aut nobis necessitatibus
-            expedita, excepturi rerum suscipit distinctio accusamus modi
-            consectetur iusto autem quaerat quasi assumenda consequuntur cumque
-            ut vel.
-          </p>
+      </div>
+   
+    </div>
+    <hr>
+    <div class="service-container" id="Services">
+      <h1>My Portfolio</h1>
+      <div class="serves">
+        <div class="hello">
+          <a href="#" class="hel actives">ALL</a><a href="#" class="hel">UI/UX DESIGN</a>
+          <a href="#" class="hel">FRONT-END PROJECT</a><a href="#" class="hel">BACK-END PROJECT</a>
+        </div>
+        <div class="service-card">
+          <div class="card">
+          <div class="imagex">
+            <img src="./image/ab.jpg" alt="">
+          </div>
+            <h2>ALIGHT RWANDA ORG</h2>
+            <p>i was doing front-end on this project only</p>
+              <a href="#" class="read">Read-more...</a>
+          </div>
+          <div class="card">
+            <div class="imagex">
+              <img src="./image/ab.jpg" alt="">
+            </div>
+              <h2>LUKE FILMZ PRODUCTION</h2>
+              <p>i was doing UI/UX DESIGN AND FRONT-END on this project only</p>
+                <a href="#" class="read">Read-more...</a>
+            </div>
+            <div class="card">
+              <div class="imagex">
+                <img src="./image/ab.jpg" alt="">
+              </div>
+                <h2>OKG MUSIC STUDIO</h2>
+                <p>i was doing FRONT-END AND BACK-END on this project only</p>
+                  <a href="#" class="read">Read-more...</a>
+              </div>
+              <div class="card">
+                <div class="imagex">
+                  <img src="./image/ab.jpg" alt="">
+                </div>
+                  <h2>LEXOUS HOTEL </h2>
+                  <p>i was doing BACK-END,FRONT-END,UI/UX DESIGN on this project only</p>
+                    <a href="#" class="read">Read-more...</a>
+                </div>
+        </div>
+        <div class="nextp">
+          <a href="#" class="hel">view other project</a>
+        </div>
        
-          <button class="btni">DOWNLOAD CV</button>
-        </div>
-      </div>
-    </div>
-    <!-- -----------------SKILLS---------------------- -->
 
-    <div class="skills-container">
-      <h1 class="head">MY-SKILLS IN PROGRAMMING</h1>
-      <div class="skills">
-        <div class="html">
-          <div class="h">
-            <h2>HTML</h2>
-            <b>90%</b>
-          </div>
-        </div>
-        <div class="css">
-          <div class="c">
-            <h2>CSS</h2>
-            <b>80%</b>
-          </div>
-        </div>
-        <div class="javascript">
-          <div class="j">
-            <h2>JAVASCRIPT</h2>
-            <b>60%</b>
-          </div>
-        </div>
-        <div class="node">
-          <div class="n">
-            <h2>NODE JS</h2>
-            <b>50%</b>
-          </div>
-        </div>
-        <div class="react">
-          <div class="r">
-            <h2>REACT JS</h2>
-            <b>75%</b>
-          </div>
-        </div>
-        <div class="scss">
-          <div class="s">
-            <h2>SASS/SCSS</h2>
-            <b>65%</b>
-          </div>
-        </div>
       </div>
-    </div>
-    <!-- -----------------WORK PLACE------------------ -->
 
-    <div class="work-container">
-      <h1 class="head">MY-WORKS/PPRTIFOLIO</h1>
-      <div class="works">
-        <div class="work-card">
-          <i class="fa-brands fa-html5"></i>
-          <h2 class="front">FRONT-END PROJECT</h2>
-          <p class="pc">
-            excepturi rerum suscipit distinctio accusamus modi consectetur iusto
-            autem quaerat quasi assumenda consequuntur cumque ut vel.
-          </p>
-          <div class="linkx">
-            <a href="£" class="linka">view-project</a>
-          </div>
-        </div>
-        <div class="work-card">
-          <i class="fa-brands fa-node-js"></i>
-          <h2 class="front">BACKEND-END PROJECT</h2>
-          <p class="pc">
-            excepturi rerum suscipit distinctio accusamus modi consectetur iusto
-            autem quaerat quasi assumenda consequuntur cumque ut vel.
-          </p>
-          <div class="linkx">
-            <a href="£" class="linka">view-project</a>
-          </div>
-        </div>
-        <div class="work-card">
-          <i class="fa-solid fa-pen-nib"></i>
-          <h2 class="front">UI/UX PROJECT</h2>
-          <p class="pc">
-            excepturi rerum suscipit distinctio accusamus modi consectetur iusto
-            autem quaerat quasi assumenda consequuntur cumque ut vel.
-          </p>
-          <div class="linkx">
-            <a href="£" class="linka">view-project</a>
-          </div>
-        </div>
-      </div>
     </div>
-    <div class="contact-container">
-      <h1 class="head">CONTACT ME</h1>
-      <div class="form">
-        <div class="contacts">
-          <form action="">
-            <div class="inputt">
-              <div class="tes">
-                <input
-                  type="text"
-                  name="names"
-                  placeholder="Enter Full Name"
-                  class="field"
-                />
-              </div>
-              <div class="tx">
-                <input
-                  type="text"
-                  name="email"
-                  placeholder="Enter Email Address"
-                  class="field"
-                />
-              </div>
-            </div>
-            <div class="inputt">
-              <!-- <input type="text" name="phone" placeholder="Enter phone number start with(+)" class="field"> -->
-              <textarea
-                name="message"
-                id="message"
-                cols="40"
-                rows="7"
-                placeholder="type your messages"
-              ></textarea>
-            </div>
+    <hr>
+    <!-- //skill-container  -->
+<div class="skill-container" id="skills">
+  <h1 class="head">MY-Skills</h1>
+  <div class="skills">
+<h1>HTML</h1>
+<div class="container">
+  <div class="skill html">90%</div>
+</div>
+<h1>CSS</h1>
+<div class="container">
+  <div class="skill css">80%</div>
+</div>
+<h1>PHP</h1>
+<div class="container">
+  <div class="skill php">40%</div>
+</div>
+<h1>JAVASCRIPT</h1>
+<div class="container">
+  <div class="skill js">60%</div>
+</div>
+<h1>NODE JS</h1>
+<div class="container">
+  <div class="skill node">50%</div>
+</div>
+<h1>REACT JS</h1>
+<div class="container">
+  <div class="skill react">70%</div>
+</div>
+<div class="educations">
+  <h1>My Education</h1>
+  <h4>2015-2018</h4><b>i studed on O'LEVEL at college goerge fox DE kagarama(CGFK)</b>
+  <h4>2019-2022</h4><b>i studed on E'LEVEL in software development at (CGFK)</b>
+  <h4>(from 20/3/2023 until 25/9/2023)</h4><b>i was trainning in nyabiheke coding school in 6month</b>
+</div>
+</div>
 
-            <div class="btn">
-              <button type="submit" class="btn1">SEND</button>
-            </div>
-            <div class="icons">
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-          </form>
+</div>
+<hr>
+ 
+    <div class="contact-container" id="contact">
+      <h1 class="head">Contact-ME</h1>
+      <h2>Get IN Touch</h2>
+      <div class="contacts">
+        <div class="phone">
+          <i class="fa-solid fa-location-dot"></i>
+          <h1>location office</h1>
+          <p>Rwanda,Kigali</p>
+          <p>Kicukiro,Gatenga</p>
+          <p>street 616 ST</p>
         </div>
-        <div class="touch-container">
-          <h1>TOUCH</h1>
-          <div class="touch-word">
-            <div class="iconx">
-              <div class="ib">
-                <i class="fa-brands fa-github"></i>
-                <b class="kk">GITHUB-ACCOUNT</b>
-              </div>
-              <a href="https://github.com/Franklin-pro" class="block">Franklin-pro</a>
-            </div>
-            <div class="iconx">
-              <div class="ib">
-                <i class="fa-solid fa-envelope"></i>
-                <b class="kk">EMAIL-ADDRESS</b>
-              </div>
-              <p>franklinprogrammer@gmail.com</p>
-            </div>
-             <div class="iconx">
-              <div class="ib">
-                <i class="fa-solid fa-location-dot"></i>
-                <b class="kk">OFFICE-LOCATION</b>
-              </div>
-                <a href="https://www.google.com/maps/place/K
-                K+616+St,+Kigali/@-1.9824086,30.0938845,99m/data=!3m1!1e3!4m15!1m8!3m7!1s0x19dca63ce8b11d59:0xae6c
-                63ba798cab14!2sKK+616+St,+Kigali!3b1!8m2!3d-1.9824838!4d30.0935888!
-                16s%2Fg%2F12xpqlm38!3m5!1s0x19d
-                ca63ce8b11d59:0xae6c63ba798cab14!8m2!3d-1.9824838!4d30.0935888!16s%2F
-                g%2F12xpqlm38?authuser=0&entry=ttu" target="_blank" class="block">KK BLOCK 616 ST/GATENGA</a>
-            </div>
-            <div class="iconx">
-              <div class="ib">
-                <i class="fa-solid fa-phone"></i>
-                <b class="kk">CALL/WHATS'APP</b>
-              </div>
-              <p>0783446449/0790019543</p>
-            </div>
-          </div>
+        <div class="phone">
+          <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+          <h1>Phone-Number</h1>
+          <p>+250 783446449</p>
+          <p>+250 790019543</p>
+          <p>+250 788518920</p>
+        </div>
+        <div class="phone">
+          <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+          <h1>Email-Address</h1>
+          <p>franklinprogrammer@gmail.com</p>
+          <p>frankndanyuzwe1@gmail.com</p>
+          <p>frankndanyuzwe6@gmail.com</p>
         </div>
       </div>
-     
+      <div class="contact-left">
+
+        <form>
+          <input type="text" id="names" placeholder=" your names"required>
+          <input type="text" id="names" placeholder=" your email"required>
+          <input type="text" id="names" placeholder=" phone number start with(+)"required>
+          <textarea required placeholder="type your message here.." ></textarea><br><br>
+          <div class="buton">
+          <button type="submit">send</button>
+        </div>
+        <div class="iconn">
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+          </div>
+        </form>
+      </div>
     </div>
+
     <footer>
       <div class="footer-container">
-        <div class="footera">
-          <div class="footer">
-            <h2 class="heads">KK 616 KIGALI,KICUKIRO,RWANDA GATENGA BLOCK STREET 616 ST</h2>
-            <p class="foo">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-              iste dolorum non aperiam magnam natus quo, nisi, voluptates
-              consectetur porro dolore quibusdam nesciunt consequuntur fugit ex
-              a vel neque. Culpa?
-            </p>
-            <div class="icons fo">
-                <div class="icon">
-                    <i class="fa-solid fa-phone"></i>
-                    <p>0783446449</p>
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-envelope"></i>
-                    <p>franklinprogrammer@gmail.com</p>
-                </div>
-               
-            </div>
-          <div class="un">
-            <input type="text" name="subscribe" placeholder="Enter email Address" class="fild">
-            <button type="submit" class="bn">SUBSCRIBE<i class="fa-solid fa-bell"></i></button>
+        <div class="footer">
+          <div class="iconn">
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
           </div>
-                
-         
-          </div>
+          <h1>KK-616, p.o.box 1145 kigali-kicukiro,RWANDA,KIGALI</h1>
+          <div class="icon-end">
+            <i class="fa-solid fa-phone" style="color: #ffffff;"></i><p>0783446449</p>
+            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i></i><p>Real-Me@gmail.com</p>
+        </div>
+        <div class="sub">
+    <input type="text" name="subscribe" placeholder="enter-email address">
+    <button type="submit">SUBSCRIBE</button>
+        </div>
         </div>
       </div>
-    </footer>
-    <script src="javascript.jsx"></script>
+    </footer> 
   </body>
+
 </html>
